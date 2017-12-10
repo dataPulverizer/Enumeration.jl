@@ -1,6 +1,6 @@
 # Enumeration.jl, A C++ class style enums for Julia, written in Julia v0.7.0-DEV
 
-You're asking yourself *"Julia already has `enum` funcitonality, why do I need `Enumeration.jl`?"*. Well `Enumeration.jl`:
+You're asking yourself *"Julia already has `enum` functionality, why do I need `Enumeration.jl`?"*. Well `Enumeration.jl`:
 
 * Encapsulates names away from code. This allows you to reuse the name in the enums as variables if you so wish.
 * Unabiguous when you are referring to `Fruits("apple")` not `Stocks("apple")` for instance.
