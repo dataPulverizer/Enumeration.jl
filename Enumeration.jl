@@ -24,6 +24,8 @@ function Enumerate(name::Symbol, data::Dict{T, Int})::Void where T
    equalityExpression = quote
      import Base.==
      ==(x::$name, y::$name) = x.value == y.value
+     ==(x::$name, y::Int) = x.value == y
+     ==(y::Int, x::$name) = x.value == y
    end
 
    eval(Main, enumExpression)
@@ -47,5 +49,14 @@ julia> yourFruit == myFruit
 false
 
 julia> myFruit == Fruit("guava")
+true
+
+julia> myFruit == 4
+true
+
+julia> myFruit == 3
+false
+
+julia> 4 == myFruit
 true
 ==#
