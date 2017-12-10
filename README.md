@@ -5,7 +5,7 @@ the enum and a `Symbol` that defines the name of the enum.
 
 ## Example:
 
-Shows example with Dict{String, Int}, but could as well work with any T for String.
+Shows example with `Dict{String, Int}`, but could as well work with any `T` for `String`.
 
 ```
 julia> include("Enumeration.jl")
