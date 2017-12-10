@@ -8,7 +8,7 @@ You're asking yourself *"Julia already has `enum` functionality, why do I need `
 
 `Enumeration.jl` thus presents a much **safer** and **cleaner** programmer friendly interface to enums than the current built-in `Base` implementation.
 
-The usage of `Enumeration.jl` is based around the `Enumerate(name::Symbol, data = Dict{T, Int})` function allowing you to use any type as `T` for the identifier and the value is an integer. The `name` argument is the name of the enumeration. See the example below:
+The usage of `Enumeration.jl` is based around the `Enumerate(name::Symbol, data = Dict{T, Int})` function allowing you to use any type as `T` for the identifier in the dictionary and the value is an integer. The `name` argument is the type name of the enumeration. See the example below:
 
 ## Example:
 
