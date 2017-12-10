@@ -1,7 +1,7 @@
 # Enumeration.jl, A C++ class style enums for Julia, written in Julia v0.7.0-DEV
 
-Based around the `Enumerate` funciton that generate a type based a dictionary `Dict{T, Int}` that defines 
-the enum and a `Symbol` that defines the name of the enum.
+Based around the `Enumerate` function that generates a type based on a dictionary `Dict{T, Int}` which defines 
+the enum, and a `Symbol` that defines the name of the enum.
 
 ## Example:
 
