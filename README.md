@@ -6,7 +6,7 @@ You're asking yourself *"Julia already has `enum` funcitonality, why do I need `
 * Unabiguous when you are referring to `Fruits("apple")` not `Stocks("apple")` for instance.
 * You can evaluate that `Fruits("apple") != Stocks("apple")`.
 
-`Enumeration.jl` thus presents a much **safer** and **clearer** programmer friendly interface to enums than the current built-in base implementation.
+`Enumeration.jl` thus presents a much **safer** and **cleaner** programmer friendly interface to enums than the current built-in base implementation.
 
 The usage of `Enumeration.jl` is based around the `Enumerate(name::Symbol, data = Dict{T, Int})` function allowing you to use any type as `T` for the identifier and the value is an integer. The `name` argument is the name of the enumeration. See the example below:
 
