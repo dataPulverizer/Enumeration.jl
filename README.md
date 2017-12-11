@@ -44,3 +44,8 @@ true
 Enjoy
 
 DP
+
+
+## TODO
+
+* The `data::Dict{T, Int}` doesn't have to be in the enum type - this is pretty inefficient. Perhaps it should sit in some common lookup for enums resulting in a lighter-weight object.
