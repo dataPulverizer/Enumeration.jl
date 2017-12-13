@@ -17,10 +17,6 @@ function Enumerate(name::Symbol, data::Dict{T, Int})::Void where T
     end
   end
 
-   #==
-     There is a default equality expression, this one overrides it.
-   ==#
-
    equalityExpression = quote
      import Base.==
      ==(x::$name, y::$name) = x.value == y.value
